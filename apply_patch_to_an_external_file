@@ -1,0 +1,6 @@
+#!/bin/bash
+
+filename_c=$1
+filename_patch=$2
+
+patch -p1 $filename_c $filename_patch
